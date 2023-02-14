@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "npx cypress run"
+    "test": "npx cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:safari": "cypress run --browser webkit --record --key 6215607f-b47f-4d0c-bbd1-b92e34ca7e58"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -21,6 +24,7 @@
   "devDependencies": {
     "cypress": "^12.5.1",
     "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6"
+    "eslint-config-next": "13.1.6",
+    "playwright-webkit": "^1.30.0"
   }
 }
