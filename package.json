@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "publish": "next build && next export && next publish",
     "test": "npx cypress run"
   },
   "dependencies": {
